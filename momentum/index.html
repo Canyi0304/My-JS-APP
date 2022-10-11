@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>My Vanilla JS APP</title>
+    </head>
+    <body>
+        <form id="login-form" class="hidden">
+            <input
+                required="required"
+                maxlength="10"
+                type="text"
+                placeholder="what is your name?"/>
+            <input type="submit" value="LogIn">
+            <!-- <button>LogIn</button> -->
+        </form>
+        <h2 id="clock">00:00:00</h2>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+            <input type="text" placeholder="해야 할 일을 적어주세요!" required/>  <!--placeholder: 힌트-->
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <!-- <img src="img/0.jpeg" alt=""> -->
+        <!-- <a href="https://nomadcoders.co">Go to courses</a> -->
+        <script src="js/greetings.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/quotes.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>

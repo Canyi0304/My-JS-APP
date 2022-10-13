@@ -1,7 +1,6 @@
 const WEATHER_API_KEY = "6763630b9688c4e33e739d6b0620f6fc";
 
 
-
 function onGeoOK(position) {
     
     const lat = position.coords.latitude;                //위도 
@@ -14,11 +13,11 @@ function onGeoOK(position) {
         const city = document.querySelector("#weather span:last-child");
         console.log(data.name, data.weather[0].description);
         city.innerHTML = data.name;                                //innerHTML = innerText?   
-        weather.innerHTML = `${data.weather[0].description} / ${data.main.temp}`;
+        weather.innerHTML = `${data.weather[0].description} / ${Math.round(data.main.temp)}`;   
     });
 }
 
-function onGeoError(params) {
+function onGeoError() {
     
     alert("위치를 찾지 못했습니다.");
 }

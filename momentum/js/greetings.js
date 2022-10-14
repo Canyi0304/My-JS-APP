@@ -8,6 +8,7 @@ const greeting  = document.querySelector("#greeting");
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
+
 function onLoginSubmit(event) {
     
     event.preventDefault();  //기본적으로 발생하는 이벤트를 막기
@@ -19,11 +20,13 @@ function onLoginSubmit(event) {
     paintGreetings(username);
 }
 
+
 function handleLinkClick(event) {
     event.preventDefault();
     console.dir(event);
     //alert("clicked!");
 }
+
 
 function paintGreetings(username) {
     

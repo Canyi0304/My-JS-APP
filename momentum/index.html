@@ -4,7 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="greetings.css">
+        <link rel="stylesheet" href="weather.css">
+        <link rel="stylesheet" href="notice.css">
+        <link rel="stylesheet" href="quotes.css">
+        <link rel="stylesheet" href="backgroundIamge.css">
+        <link rel="stylesheet" href="clock.css">
         <title>My Vanilla JS APP</title>
     </head>
     <body>
@@ -13,27 +18,25 @@
                 required="required"
                 maxlength="10"
                 type="text"
-                placeholder="사용할 이름을 입력하세요"
+                placeholder="사용할 닉네임을 입력하세요"
                 class="inputname"/>
-            <input type="submit" value="LogIn" class="loginButton" >
+            <input type="submit" value="확인" class="loginButton" >
             <!-- <button>LogIn</button> -->
         </form>
-        <h2 id="clock">00:00:00</h2>
         <h1 id="greeting" class="hidden"></h1>
-        <form id="todo-form">
-            <input type="text" placeholder="(+)오늘의 할일 입력" required/>  <!--placeholder: 힌트-->
+        <div id="weather" class="body__weather">
+            <span></span>
+            <span></span>
+        </div>
+        <h2 id="clock">00:00:00</h2>
+        <form id="todo-form" class="body_todo-form">
+            <input type="text" placeholder="(+)오늘의 할일 입력" required class="body_todo-input"/>  <!--placeholder: 힌트-->
         </form>
-        <ul id="todo-list"></ul>
+        <ol id="todo-list" class="body_todo-list" ></ol>    
         <div id="quote">
             <span></span>
             <span></span>
         </div>
-        <div id="weather">
-            <span></span>
-            <span></span>
-        </div>
-        <!-- <img src="img/0.jpeg" alt=""> -->
-        <!-- <a href="https://nomadcoders.co">Go to courses</a> -->
         <script src="js/greetings.js"></script>
         <script src="js/clock.js"></script>
         <script src="js/quotes.js"></script>
@@ -41,4 +44,5 @@
         <script src="js/notice.js"></script>
         <script src="js/weather.js"></script>
     </body>
+
 </html>

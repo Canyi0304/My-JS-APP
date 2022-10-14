@@ -8,6 +8,7 @@ function onGeoOK(position) {
     console.log("내가 있는 곳은 " , lat , lon);
     const URL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric&lang=kr`;
     console.log(URL);
+    
     fetch(URL).then(Response => Response.json()).then(data => {
         const weather = document.querySelector("#weather span:first-child");
         const city = document.querySelector("#weather span:last-child");
@@ -19,7 +20,7 @@ function onGeoOK(position) {
 
 function onGeoError() {
     
-    alert("위치를 찾지 못했습니다.");
+    alert("위치를 찾지 못했습니다. 페이지를 새로고침하고 내 위치 확인을 허용하세요 ");
 }
 
 

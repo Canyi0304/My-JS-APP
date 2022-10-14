@@ -1,0 +1,25 @@
+img{
+    background-attachment: scroll;
+    background: no-repeat;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 80%;
+    position: fixed; 
+}
+
+
+/* img {
+    position: absolute;   
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 80%; 
+} */

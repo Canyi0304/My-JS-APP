@@ -1,0 +1,60 @@
+.hidden {
+    display: none;
+}
+
+#login-form
+{
+    text-align: center;
+}
+
+.inputname{
+
+    width: 200px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+.inputname:hover{
+
+        border: 6px solid orange;
+    
+}
+
+
+.loginButton
+{
+    width: 60px;
+    height: 36px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+
+}
+
+.loginButton:hover
+{
+    border: 4px solid orange;
+}
+
+
+#greeting
+{
+    border:var(--border);
+    font-size:40;
+    padding:0.2em;
+    border-radius: 0.75em;
+    display: flex;
+    width: 40%;
+    user-select: none;
+    color: azure;
+    text-align: center;
+   
+}

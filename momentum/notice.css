@@ -1,0 +1,33 @@
+.body_todo-input
+{
+    width: 140px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+.body_todo-input:hover
+{
+    border: 4px solid orange;
+}
+
+
+.body_todo-list button
+{
+    background-color:transparent;
+    border: 0;
+}
+
+.body_todo-list li
+{
+    color: azure;
+    font-size: 20px;
+}
+
+
+
+

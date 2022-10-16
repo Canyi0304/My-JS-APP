@@ -13,6 +13,7 @@
     color: azure;
     float: right;
     font-size: 30px;
+    cursor:pointer;
 }
 
 /* .body__weather

@@ -8,6 +8,7 @@
     outline: none;
     padding-left: 10px;
     background-color: rgb(233, 233, 233);
+    cursor: pointer;
 
 }
 
@@ -22,6 +23,7 @@
     background-color:transparent;
     border: 0;
     size: 50px;
+    cursor: pointer;
 }
 
 

@@ -1,0 +1,25 @@
+/* #clock{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: azure;
+    font-size: 30px;
+    position: absolute;
+    right: 80px;
+    top:-260px
+} */
+
+
+.body_clock
+{
+    width: 210px;
+    font-size: 50px;
+    padding:  5px 5px 5px 15px;
+    border-radius: 10px;
+    margin-left: 30px;
+    opacity: 1;
+    color: aquamarine;
+    cursor: pointer;
+}

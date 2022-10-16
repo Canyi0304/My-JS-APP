@@ -1,20 +1,33 @@
 .body_todo-input
 {
-    width: 150px;
-    height: 40px;
-    font-size: 15px;
+    background-color: gray;
+    border-style: none;
     border: 0;
-    border-radius: 15px;
-    outline: none;
-    padding-left: 10px;
-    background-color: rgb(233, 233, 233);
+    padding: 15px;
+    font-size: 30;
+    color: white;
+    border-radius: 10px;
+    transition: background-color .1s ease-in-out;
+    width: 250px;
     cursor: pointer;
 
 }
 
 .body_todo-input:hover
 {
-    border: 4px solid orange;
+    opacity: 70%;
+}
+
+.body_todo-input::placeholder
+{
+    color: white;
+}
+
+.body_todo-input:focus
+{
+    outline: none;
+    border-bottom: 4px solid white;
+    background-color: black;
 }
 
 
@@ -42,6 +55,7 @@ text.placeholder{
     color: azure;
     font-size: 40px;
     margin: 10px 10px 10px 10px;
+
 }
 
 

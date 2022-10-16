@@ -1,6 +1,6 @@
 .body_todo-input
 {
-    width: 230px;
+    width: 150px;
     height: 40px;
     font-size: 15px;
     border: 0;
@@ -21,11 +21,16 @@
 {
     background-color:transparent;
     border: 0;
+    size: 50px;
 }
 
 
 .body_todo-form
 {
+    text-align: center;
+}
+
+text.placeholder{
     text-align: center;
 }
 
